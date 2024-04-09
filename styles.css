@@ -1,9 +1,7 @@
 body{
     margin: 42px;
-    background: lightblue;
+    background: whitesmoke;
     text-align: left;
-    color: rgb(87, 86, 86);
-
 }
 
 h1 {
@@ -13,12 +11,13 @@ h2 {
     font-size: 36px;
 }
 h3 {
-    font-size: 32px;
+    font-size: 30px;
 }
 
-.custom-text{
-    color: black;
+body{
+    color: rgb(87, 86, 86);
 }
-#special-text {
-    color: red; /* Set the font color for the element with ID "special-text" */
+
+.blue-text{
+    color: rgb(58, 58, 226);
 }
