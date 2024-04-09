@@ -1,5 +1,5 @@
 body{
-    margin: 20px;
+    margin: 36px;
     background: lightblue;
     text-align: left;
 
@@ -10,4 +10,7 @@ h1 {
 }
 h2 {
     font-size: 36px;
+}
+h3 {
+    font-size: 30px;
 }
