@@ -2,6 +2,7 @@ body{
     margin: 42px;
     background: lightblue;
     text-align: left;
+    color: rgb(87, 86, 86);
 
 }
 
@@ -13,4 +14,11 @@ h2 {
 }
 h3 {
     font-size: 32px;
+}
+
+.custom-text{
+    color: black;
+}
+#special-text {
+    color: red; /* Set the font color for the element with ID "special-text" */
 }
