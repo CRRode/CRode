@@ -18,4 +18,5 @@ h3 {
 .colored-section {
     background-color: black; /* Change to the desired background color */
     padding: 20px; /* Add padding for spacing inside the section */
+    margin: 0px;
 }
