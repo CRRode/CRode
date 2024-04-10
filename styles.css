@@ -1,7 +1,8 @@
 body{
-    margin: 42px;
+    margin: 46px;
     background: whitesmoke;
     text-align: left;
+    
 }
 
 h1 {
@@ -14,10 +15,3 @@ h3 {
     font-size: 30px;
 }
 
-body{
-    color: rgb(87, 86, 86);
-}
-
-.blue-text{
-    color: rgb(58, 58, 226);
-}
