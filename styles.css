@@ -1,7 +1,8 @@
 body{
-    margin: 46px;
+    margin: 100px;
     background: white;
     text-align: left;
+    font-family: Arial, sans-serif;
     
 }
 
@@ -18,6 +19,7 @@ h3 {
 .colored-section {
     background-color: black; /* Change to the desired background color */
     padding: 20px; /* Add padding for spacing inside the section */
-    margin: -46px;
+    margin: -40px;
+    text-align: middle;
 }
 
