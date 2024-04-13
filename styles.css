@@ -7,6 +7,10 @@ body{
     
 }
 
+p{
+    font-size: larger;
+}
+
 h1 {
     font-size: 24px;
 }
