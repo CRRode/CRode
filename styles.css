@@ -12,10 +12,10 @@ p{
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 40px;
 }
 h2 {
-    font-size: 36px;
+    font-size: 46px;
 }
 h3 {
     font-size: 30px;
@@ -26,5 +26,8 @@ h3 {
     padding: 20px; /* Add padding for spacing inside the section */
     margin: 0px;
     text-align: middle;
+}
+.indented {
+    padding-left: 20px; /* Adjust the value as needed */
 }
 
