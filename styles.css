@@ -30,6 +30,11 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    font-size: 46px;
+    text-align: center;
+}
+
 /*.colored-section {
     background-color: black;  Change to the desired background color 
     width: 100%;
