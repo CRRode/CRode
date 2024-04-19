@@ -82,7 +82,7 @@
 
 
 
-    <H2>Christopher Rode </H2>
+    <H2> <span style="color: green">Contact Infomation</span> </H2>
     <p>PHONE: 717-586-4710</p>
     <p>EMAIL: Crode34@comcast.net</p>
     
@@ -127,7 +127,7 @@
 
     <div id="Enhancement One: Software Design and Engineering">
     <h1 style="color: green;">Enhancement One: Software Design and Engineering</h1>
-    <a href="https://github.com/CRRode/cs-499-Enhancement-One"> Github repoitory</a> 
+    <a href="https://github.com/CRRode/cs-499-Enhancement-One"> Enhancement one github repoitory </a> 
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.  </p>
     
     <p>Here is a screenshot of the project before the enhancement was done. </p>
@@ -154,7 +154,7 @@
 
     <div id="Enhancement Two: Algorithms and Data Structure">
     <h1 style="color: green;">Enhancement Two: Algorithms and Data Structure</h1>
-    <a href="https://github.com/CRRode/cs-499-Enhancement-Two"> Github repoitory</a>
+    <a href="https://github.com/CRRode/cs-499-Enhancement-Two"> Enhancement two github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.   </p>
    
     <p>I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. This project shows skills and albitites in algorithms and data structures because There are many algorithms in the program that are creating the shapes. I improved this artifact by adding instancing algorithms. These algorithms are used to increase the program's performance by only sending the shape data to the GPU once and then rendering it multiple times. For example, before the enhancement, there were multiple of the same cylinders being rendered. Each cylinder was sending data to the GPU even though it was the same data. Now, the data is only sent once, and we get the same number of cylinders in the program with increased performance. This changes the time complexity (BigO), from O(n), where “n” is the number of cylinders being made, to O(1). Also, the code is more concise and easier to maintain since the rendering logic for all the cylinders is contained within a single loop. This reduces the repetitive code for each cylinder, making it easier to manage and less prone to errors. </p>
@@ -185,7 +185,7 @@
 
     <div id="Enhancement Three: Databases">
     <h1 style="color: green;">Enhancement Three: Databases</h1>
-    <a href="https://github.com/CRRode/cs-499-Enhancement-Three-code"> Github repoitory</a>
+    <a href="https://github.com/CRRode/cs-499-Enhancement-Three-code"> Enhancement three github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.  </p>
     <p> I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. In this artifact I showcase skills and abilities in software development by creating quality code that includes readability, maintainability, efficiency, and adherence to best practices and coding standards. I also showcase skills in software architecture by using appropriate design patterns, and modularization. I showcase skills in documentation throughout the code with inline comments and with intent and decision for the overall functionality of each code file in the header. Lastly, I showcase skills in performance optimization by using algorithms to boost overall performance. In this enhancement I improved the artifact by creating a SQL database that has the code for my shapes stored in it. I did this by creating a database called “ShapeCode” and a table in the database called “Shapes.” This table has the shape ID, name, data, and then the shapes render data. The shape data is the data that is needed to be called into the source code and the shapes render data is the data that need to be called in the while loop that renders the shape. This allows for a more collaborative environment because anyone can recreate the shapes that I already made in my code and add them to theirs. The shapes stored in the Shapes table are the sphere, cylinder, plane, cube, and light cube. As more shapes are created this table can expand with a simple SQL insert command. Below you can see the sphere code that was queried and inserted into the source code.  </p>
     <p>Here is the Shape data being inserted into the source code with proper documentation of the modification.</p>
