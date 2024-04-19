@@ -112,18 +112,18 @@
 
 
     <div id="Code Review">
-    <h1style="color: green;>"Code Review </h1>
+    <h1 style="color: green;">Code Review </h1>
     <a href="https://www.youtube.com/watch?v=zmPbhqQFWIU"> Code Review</a>
     <p>I perform a code review in a video for each artifact selected in my initial plan. In this code review, I analyze existing code for weaknesses, limitations, and vulnerabilities and explain my plan for enhancements. These code reviews are a walk-through of existing code and planned enhancements </p>
     <a href="https://github.com/CRRode/cs-330"> Original Code</a>
     
 </div>
     
-    <h2>PROJECTS</h2>
+    <h2 style="color: green;">PROJECTS</h2>
 
 
     <div id="Enhancement One: Software Design and Engineering">
-    <h1>Enhancement One: Software Design and Engineering</h1>
+    <h1 style="color: green;">Enhancement One: Software Design and Engineering</h1>
     <a href="https://github.com/CRRode/cs-499-Enhancement-One"> Github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.  </p>
     <p>I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. The skills this artifact showcase are skills in building collaborative environments by making comments and having a modular design that other programmers familiar with c++ and OpenGL can understand, add, and change the program. The artifact was improved by expanding more on the original design. I added to the design by turning the platform into a standing desk. I did this by adding legs to the platform and creating a floor that the desk is standing on.</p>
@@ -141,7 +141,7 @@
 </div>
 
     <div id="Enhancement Two: Algorithms and Data Structure">
-    <h1>Enhancement Two: Algorithms and Data Structure</h1>
+    <h1 style="color: green;">Enhancement Two: Algorithms and Data Structure</h1>
     <a href="https://github.com/CRRode/cs-499-Enhancement-Two"> Github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.   </p>
     <p>I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. This project shows skills and albitites in algorithms and data structures because There are many algorithms in the program that are creating the shapes. I improved this artifact by adding instancing algorithms. These algorithms are used to increase the program's performance by only sending the shape data to the GPU once and then rendering it multiple times. For example, before the enhancement, there were multiple of the same cylinders being rendered. Each cylinder was sending data to the GPU even though it was the same data. Now, the data is only sent once, and we get the same number of cylinders in the program with increased performance. This changes the time complexity (BigO), from O(n), where “n” is the number of cylinders being made, to O(1). Also, the code is more concise and easier to maintain since the rendering logic for all the cylinders is contained within a single loop. This reduces the repetitive code for each cylinder, making it easier to manage and less prone to errors. Additionally, I added an FPS counter to the program. This displays the current FPS in the window while the program is running. An FPS counter is an effective way to tell how well the program is performing.   </p>
@@ -160,7 +160,7 @@
 
 
     <div id="Enhancement Three: Databases">
-    <h1>Enhancement Three: Databases</h1>
+    <h1 style="color: green;">Enhancement Three: Databases</h1>
     <a href="https://github.com/CRRode/cs-499-Enhancement-Three-code"> Github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.  </p>
     <p> I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. In this artifact I showcase skills and abilities in software development by creating quality code that includes readability, maintainability, efficiency, and adherence to best practices and coding standards. I also showcase skills in software architecture by using appropriate design patterns, and modularization. I showcase skills in documentation throughout the code with inline comments and with intent and decision for the overall functionality of each code file in the header. Lastly, I showcase skills in performance optimization by using algorithms to boost overall performance. In this enhancement I improved the artifact by creating a SQL database that has the code for my shapes stored in it. I did this by creating a database called “ShapeCode” and a table in the database called “Shapes.” This table has the shape ID, name, data, and then the shapes render data. The shape data is the data that is needed to be called into the source code and the shapes render data is the data that need to be called in the while loop that renders the shape. This allows for a more collaborative environment because anyone can recreate the shapes that I already made in my code and add them to theirs. The shapes stored in the Shapes table are the sphere, cylinder, plane, cube, and light cube. As more shapes are created this table can expand with a simple SQL insert command. Additionally, I created another database called “ProgramFiles” on the same server that stores the programs files such as the CPPs and the header files along with the glad files and the glew32 DLL file that are required to run this code. This will allow for snapshots of the program to be made to add a level of security to the code. If the original program is ever lost, there will be a database backup. Also, if anyone ever wants to create a new OpenGL program these databases can be used to assist in making the programs because the code for the shapes can easily be queried and inserted into the code so that you do not have to spend time figuring out how to make the shape yourself.  </p>
