@@ -144,7 +144,19 @@
     <h1 style="color: green;">Enhancement Two: Algorithms and Data Structure</h1>
     <a href="https://github.com/CRRode/cs-499-Enhancement-Two"> Github repoitory</a>
     <p>The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.   </p>
-    <p>I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. This project shows skills and albitites in algorithms and data structures because There are many algorithms in the program that are creating the shapes. I improved this artifact by adding instancing algorithms. These algorithms are used to increase the program's performance by only sending the shape data to the GPU once and then rendering it multiple times. For example, before the enhancement, there were multiple of the same cylinders being rendered. Each cylinder was sending data to the GPU even though it was the same data. Now, the data is only sent once, and we get the same number of cylinders in the program with increased performance. This changes the time complexity (BigO), from O(n), where “n” is the number of cylinders being made, to O(1). Also, the code is more concise and easier to maintain since the rendering logic for all the cylinders is contained within a single loop. This reduces the repetitive code for each cylinder, making it easier to manage and less prone to errors. Additionally, I added an FPS counter to the program. This displays the current FPS in the window while the program is running. An FPS counter is an effective way to tell how well the program is performing.   </p>
+   
+    <p>I selected this artifact because it was one of the more complex programs that I made during my time at SNHU, and I knew there were many enhancements that could be done to this project. This project shows skills and albitites in algorithms and data structures because There are many algorithms in the program that are creating the shapes. I improved this artifact by adding instancing algorithms. These algorithms are used to increase the program's performance by only sending the shape data to the GPU once and then rendering it multiple times. For example, before the enhancement, there were multiple of the same cylinders being rendered. Each cylinder was sending data to the GPU even though it was the same data. Now, the data is only sent once, and we get the same number of cylinders in the program with increased performance. This changes the time complexity (BigO), from O(n), where “n” is the number of cylinders being made, to O(1). Also, the code is more concise and easier to maintain since the rendering logic for all the cylinders is contained within a single loop. This reduces the repetitive code for each cylinder, making it easier to manage and less prone to errors. </p>
+    
+    <p>Below is a screenshot of the cylinder instancing algorithm for the legs of the desk. This image shows my skills in implementing algorithms that improve the time complexity, increasing program performance and reducing redundant code. This also shows my skills in creating easily readable code and proper documentation that adheres to computer science best practices. </p>
+    <img src="instance alg.png" alt="Description of the image" style="width: 70%; height: auto;">
+
+
+    <p>Additionally, I added an FPS counter to the program. This displays the current FPS in the window while the program is running. An FPS counter is an effective way to tell how well the program is performing. I have provided screenshots of the FPS counter code below. </p>
+   
+    <p>Here is the screenshots showing the function created to calculate the frames per second as well as the code for displaying the FPS in the window.  </p>
+    <img src="FPS counter.png" alt="Description of the image" style="width: 70%; height: auto;">
+    <img src="display fps.png" alt="Description of the image" style="width: 70%; height: auto;">
+
     <p>While enhancing this artifact I learned how important algorithms can be and how much they can change a program. Adding the algorithm increased the program's performance by reducing the amount of data sent to the GPU. The instancing algorithms also decreased the amount of code in the source file. There was a lot of code deleted after adding the algorithm because they were not needed any more. If I used instancing algorithms when I originally made the code, there would have been a lot of time saved. Getting the algorithm running was a little bit of a challenge. There were errors in the code when I first added it but after a little research, I figured out the problem and the code ran as intended.   </p>
     <b>CS-499 Course Outcomes Reached </b>
     <p>[CS-499-01] Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in computer science.  </p>
@@ -171,13 +183,12 @@
     <img src="shape render data.png" alt="Description of the image" style="width: 70%; height: auto;"> 
 
     <p> Additionally, I created another database called “ProgramFiles” on the same server that stores the programs files such as the CPPs and the header files along with the glad files and the glew32 DLL file that are required to run this code. This will allow for snapshots of the program to be made to add a level of security to the code. If the original program is ever lost, there will be a database backup. Also, if anyone ever wants to create a new OpenGL program these databases can be used to assist in making the programs because the code for the shapes can easily be queried and inserted into the code so that you do not have to spend time figuring out how to make the shape yourself.  </p>
-    <img src="Program files.png" alt="Description of the image" style="width: 70%; height: auto;">
-
+    
     <p>Below is a screenshot of the “ProgramFiles” table being created and queried using the select * from ProgramFiles command while using best computer science practices.  </p>
-    <img src="vs queried.png" alt="Description of the image" style="width: 70%; height: auto;">
+    <img src="Program files.png" alt="Description of the image" style="width: 70%; height: auto;">
     
     <p>The below screenshot shows Data being queried from shapeCode database inside of visual studios to show my skill in using multiple different tools in computer science.  </p>
-
+    <img src="vs queried.png" alt="Description of the image" style="width: 70%; height: auto;">
     <p>Throughout enhancing and modifying the artifact, I gained a deeper understanding of technical concepts and tools related to software development such as SQL and Microsoft SQL Server Management Studio. I was a little rusty on SQL since it has been a little while since I last used it, but this enhancement was an effective way to improve my skills in using SQL. Since I have not used SQL in a while, it was challenging at first to get started with creating a new database and tables but with a little help from the internet I was able to figure out everything I needed to get the job done.  </p>
     
     <b>CS-499 Course Outcomes Reached </b>
