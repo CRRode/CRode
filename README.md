@@ -92,6 +92,25 @@ I achieved this outcome by securing the databases with a password accessible onl
 
 
 
+Course Outcomes
+
+Course Outcome 1
+I Employed strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by completing the following enhancements to my CS 330: Computational Graphics and Visualization Final Project. I achieved this outcome in all three enhancements through comprehensive comments, code documentation of changes, and a modular structure that enables any programmer to easily understand and edit the code. I included inline comments to explain enhancements and addressed areas lacking comments. Additionally, I provided an overview of each code file's functionality in the header of each file. Lastly, I reached this outcome by creating a database that assists users in creating similar programs to mine using the code I have already developed.
+
+Course Outcome 2
+I Designed, Developed, and Delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing the following enhancements to my CS 330: Computational Graphics and Visualization Final Project. I achieved this outcome in all three enhancements creating a thorough code review where I discussed the code and the enhancement plan that was implemented. Additionally, I provided comments where the code was enhanced, adhering to best computer science practices, and offered a written narrative of the enhancement. Lastly, the project utilizes DLLs, headers, and other resources developed by others, showcasing my ability to effectively collaborate and work with peer-created code.
+
+Course Outcome 3
+I Designed and Evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing the following enhancements to my CS 330: Computational Graphics and Visualization Final Project. I achieved this outcome in enhancement two where I developed an instancing algorithm to render shapes, showcasing optimization techniques and considerations of time complexity. This approach significantly enhanced the program's performance while minimizing redundant code, highlighting my proficiency in algorithms and performance optimization.
+
+Course Outcome 4
+I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing the following enhancements to my CS 330: Computational Graphics and Visualization Final Project. I achieved this outcome in all three enhancements by fulfilling both the enhancement criteria I established and those of the entire project. I adhered to the best computer science practices throughout the development process. Moreover, I demonstrated proficiency in utilizing the OpenGL API, Visual Studio IDE, and C++ coding language to implement tools and integrate an algorithm aimed at enhancing program performance. Lastly, I demonstrated my skills in SQL by creating two separate SQL databases using Microsoft SQL Server Management Studio to meet the goals of the database enhancement.
+
+Course Outcome 5
+I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the following enhancements to my CS 330: Computational Graphics and Visualization Final Project. I achieved this outcome in enhancement three, databases, by securing the databases with a password accessible only to authorized users, including myself and those granted permission. Storing the code in a database also provides an additional layer of protection against scenarios where the program is lost or deleted from the computer.
+
+
+
 
 
 
