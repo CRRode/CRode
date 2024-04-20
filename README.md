@@ -9,12 +9,15 @@ In this portfolio, I will use the CS 330: Computational Graphics and Visualizati
 
 
 Code Review
+https://www.youtube.com/watch?v=zmPbhqQFWIU
+https://github.com/CRRode/cs-330
 
 I perform a code review in a video for each artifact selected in my initial plan. In this code review, I analyze existing code for weaknesses, limitations, and vulnerabilities and explain my plan for enhancements. These code reviews are a walk-through of existing code and planned enhancements
 
 PROJECTS
 
 Enhancement One: Software Design and Engineering
+https://github.com/CRRode/cs-499-Enhancement-One
 
 The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.
 
@@ -34,6 +37,7 @@ I achieved this outcome through a comprehensive code review, where I discussed t
 I achieved this outcome by fulfilling both the enhancement criteria I established and those of the entire project. Throughout the development process, I adhered to the best computer science practices. Additionally, I demonstrated proficiency in utilizing the OpenGL API, Visual Studio IDE, and the C++ coding language. These skills were showcased through the incorporation of additional features into the program, such as the implementation of legs and a floor.
 
 Enhancement Two: Algorithms and Data Structure
+https://github.com/CRRode/cs-499-Enhancement-Two
 
 The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.
 
@@ -59,6 +63,7 @@ I accomplished this outcome by fulfilling both the enhancement criteria I establ
 
 
 Enhancement Three: Databases
+https://github.com/CRRode/cs-499-Enhancement-Three-code
 
 The artifact used was the CS 330: Computational Graphics and Visualization Final Project. The idea for this project was to recreate a 2D scene into a 3D scene using OpenGL. The objects in this scene are made up of basic shapes such as cubes, cylinders, spheres, and planes. This project was created over a few weeks in the CS 330: Computational Graphics and Visualization course.
 
